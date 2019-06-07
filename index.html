@@ -4,22 +4,8 @@
     <title>Dog Button</title>
   </head>
   <body>
-    <button title="dog" class="action primary tocart" onclick=" window.open('javascript:openSite()', '_blank'); return false;">dog</button>
-    <script>
-      var links = [
-        "https://dingo.care2.com/pictures/greenliving/1436/1435572.large.jpg?"
-        "https://www.guidedogs.org/wp-content/uploads/2018/01/Mobile.jpg"
-      ]
-        function openSite() {
-          var randIdx = Math.random() * links.length;
-          randIdx = parseInt(randIdx, 10);
-          var link = 'http://' + links[randIdx];
-          return link;
-        };
-      document.getElementById('dog').innerHTML = openSite();
-    </script>
-      <footer>
-        <p>Stylize? | <a href="https://moreminds2005.github.io/Dog-Button/brown.html">brown</a> | <a href="https://moreminds2005.github.io/Dog-Button/yellow.html">yellow</a></p>
-      </footer>
+    <form action="https://dingo.care2.com/pictures/greenliving/1436/1435572.large.jpg">
+      <button type="submit" value="dog" target="_blank">
+    </form>
   </body>
 </html>
